@@ -6,7 +6,7 @@ require('dotenv').config()
 const PORT = 5000
 
 const pool = new Pool({
-    connectionString: process.env.DATABASE_URL
+    connectionString: 'postgres://oswgfrke:9rDeFx9-Z4r7n8QP0iXqwZgHeewlI98n@mouse.db.elephantsql.com/oswgfrke'
 })
 
 
