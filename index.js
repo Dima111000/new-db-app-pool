@@ -30,31 +30,30 @@ app.get('/', (req, res) => {
     try {
         res.send(`
         <div style="padding: 5px 45px>
-            <h1>Лабораторная работа №2</h1>
             <nav>
-                <ul style="display: flex; gap: 10px; flex-direction: column; padding: 0">
-                    <li style="list-style:none">
+                <ul style="display: flex; gap: 10px; flex-direction: column">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/require-db" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Проверка подключения БД</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/users" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех данных с таблицы users</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/all-schemas" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех баз данных</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/all-tables" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех таблиц</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/all-views" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех представлений</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/all-triggers" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех триггеров</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/all-procedures" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод всех процедур</a></button>
                     </li>
-                    <li style="list-style:none">
+                    <li style="list-style:none; margin-bottom: 10px">
                         <button style="padding: 10px; text-align:center; background-color: green; outline: none; border: none; border-radius: 5px; width: 250px"><a href="/get-index" style="text-decoration:none; color:#fff; font-size: 18px; font-weight: 500">Вывод индексов для таблицы Users</a></button>
                     </li>
                 </ul>
